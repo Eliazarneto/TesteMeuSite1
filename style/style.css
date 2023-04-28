@@ -13,25 +13,25 @@ body{
     border-radius: 20px;
 }
 
-.conteudo-principal {
+main .conteudo-principal {
     background-color: #163840d8;
     padding: 10px;
-    box
+    
 }
 
-.conteudo-principal h1, h2 {
+main .conteudo-principal h1, h2 {
     color: white;
     text-align: center;
     padding: 20px;
     margin: auto;
 }
 
-.conteudo-principal p {
+main .conteudo-principal p {
     color: white;
-    
     text-align: left;
     margin: 20px;
     padding: 6px;
+    text-align: justify;
 }
 
 #menu-h{
