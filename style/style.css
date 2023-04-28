@@ -34,15 +34,13 @@ body{
     padding: 6px;
 }
 
-.conteudo-principal p {
-
-}
-
 #menu-h{
     list-style: none;
     padding: 0;
     background-color: #163840a9;
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.61);
+    text-align: justify;
+    max-width: 600px;
 
 }
 
@@ -62,9 +60,6 @@ body{
     background-color:#2B6D7D
 }
 
-/*main > p, h1, h2{*/
-    color: black;
-}
 
 main{
    /* background-color: rgb(209, 200, 200);*/
@@ -73,14 +68,13 @@ main{
     text-align: justify;
     text-indent: 30px;
     line-height: 1.5em;
+    max-width: 600px;
+    margin-top: 20px;
 }
+
 
 li{
     color: white;
-}
-
-p {
-    /*color: black;*/
 }
 
 #nomeaula {
