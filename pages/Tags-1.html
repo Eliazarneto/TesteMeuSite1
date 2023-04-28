@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="C:\Users\eliaz\Desktop\Programação\Curso html e css\CURSO EM VIDEO HTML\ExerciciosAula\EX004\Harwen-Pleasant-Program-Group.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(56, 56, 240);
+            color: whitesmoke;
+        }
+    </style>
+    <title>EliazarDev</title>
+</head>
+<body>
+    <h1>Aqui serão armazenadas as minhas anotações <br> Começando primeiramente com as TAGS
+    </h1>
+    <hr>
+    <p> 
+        - HR significa linha horizontal <br>
+        - h1 significa titulo - dentro do h1, podem existir h2, h3, h4 ate o 6, assim como podem existir o h2, h3, h4, dentro do h2. para mostrar que aqueles topicos estão dentro do titulo principal, eles são divididos por níveis<br>
+        - p é paragrafo <br>
+        - "tudo é chamado de marca ou tag derivado do html" <br>
+        - br - break role, quebra de linha <br>
+        - & lt; seguido por & gt; é o comando que possibilita a digitação dos seguintes caracteres &lt; &gt;, ja que utilizando os mesmos diretamente, eles irão criar uma tag. <br>
+        - !&lt-- (é a tag para criação de comentario) <br>
+        - &#x - é o comando para criação de emoji <br>
+        - img - é o comando para adicionar imagem, voce póde adicionar imagem de uma pasta, subpasta, ou link url de qualquer lugar. <br>
+        - link:favicon - é o comando para adicionar o icone da pagina, ele deve ser adicionado na parte HEAD do programa, normalmente acima da linha title <br>
+        <hr>
+        - header - indica que tudo que estiver dentro dele é do cabeçalho <br>
+        - main - tag que cria a parte do meio da página <br>
+        - footer - tag semantica que separa o rodapé <br>
+        - nav - menu de navegação, ancoras, links, que voce clica para ir ao outro lugar. dentro dele se usa a tag a. <br>
+        - a - tag para criar botoes que levam a outro lugar. <br>
+        - section - seção, para dividir o meio da página. a main <br>
+        - strong - comando que deixa o texto dentro dele em negrito. voce inicia com a abertura da tag e finaliza com o fechamento. <br>
+        - a tag b, também serve para deitar em negrito. porém, ela é uma tag sem semantica. <br>
+        - EM - é a tag para a marcação em negrito. o comando com semantica <br>
+        - I - É  atag para a criação de negrito sem semantica. <br>
+        <hr>
+        ----------- AS TAGS B E I NÃO SÃO MUITO UTILIZADAS -------- <br>
+        <hr>
+        - Mark é uma tag que praticamente gera um marca texto no texto selecionado. (Para mudar a cor voce usa css dentro da propria tag, apertando espaço e criando o parametro style.ex mark style="background-color: aliceblue;)
+        ---- Ao criar a categoria style, dentro do head, para a tag mark, voce pode escolher a cor para todas as marcações do texto <br>
+        - Del - é uma tag para riscar o texto, deletado <br>
+        - Ins - é uma tag para sublinhar o texto, inserido (Pode ser utilizada a tag U, mas ela não é semantica) <br>
+        - Sup - tag para colocar numeros elevados como x<sup>20</sup> <br>
+        - sub - tag para colocar numeros abaixo como h<sub>2</sub>O <br>
+        - code - tag que serve para marcar um codigo <br>
+        - q - é uma tag que coloca as aspas em uma citação, onde voce da sentido a citação diferente de fazer apenas o uso das aspas "" <br>
+        
+        <pre>
+- pre - tag para colocar os codigos exatamente como sao digitados
+dentro da tag pre, da pra criar uma formatação diferente, onde o texto vai ser guiado pelas quebras de linha e tudo 
+(porém não é recomendado, ja que acaba virando bagunça)
+        </pre> <br>
+        - blockquote - tag que cria uma citação, e dentro dela voce pode adicionar "cite" e colocar o link, para que o site saiba que voce esta citando tal livro; <br>
+        - abbr - tag para abreviações. o texto terá uma abreviação que voce verá ao colocar o mouse em cima; <br>
+           
+        <H2>OBSERVAÇÕES E TAGS IMPORTANTES</H2>
+        - a criação da tag style dentro do head, permite a alteração em cores do nosso script, atraves das tags especificas, seja do body, 
+        header, mark, etc;
+        
+        - OL - Para criar uma lista organizada. dentro dele vc coloca o li para cada topico. <br>
+        Dentro do OL você pode adicionar o Type <br>
+        - UL - tag para listas desordenadas, apenas com as bolinhas. <br>
+        - também é possivel adicionar uma lista dentro de outra lista. <br>
+        - Dl é uma lista de definição, dentro dela voce cria a primeira variavel com a tag <strong>dt</strong>, e depois a segunda, com a tag <strong>dd</strong>, que será nome seguido de significado. <br>
+        - a - é a tag para criação de hyperlinks, atraves do envelopamento, ctrl e espaço permite escolher uma segunda página <br>
+        - CTRL SHIFT P - COMANDO PARA ENVELOPAR
+        - target - tag para que o link seja aberto em uma pagina em branco, exemplo de uso target = "_blank" seguido por <br>
+        - rel - seguido de "external", significando que é um link externo (seguir EX010) <br>
+        - Para criação de outras páginas, voce apenas precisa deixa-las na mesma pasta - rel next proxima, rel prev previous - ajuda o sistema de pesquisa a encontrar o seu site <br> 
+        - rel nofollow - serve para que o mecanismo de busca não faça o index entre o seu site e do terceiro.
+        - target _blank - pagina em branco
+        - target _self - propria pagina <br>
+        - ../ - permite que voce vá para duas pasta antes, assim como ./ sobe uma pasta. <br>
+        - download="Meulivro.pdf" rel="application.pdf- Esse é a tag, após o A, para colocar um arquivo para download dentro do seu link <br>
+        - Aqui vão alguns media types bem usados no nosso dia-a-dia: 
+        ‣ application/zip <br>
+        ‣ text/html <br>
+        ‣ text/css <br>
+        ‣ text/javascript <br> 
+        ‣ video/mp4 <br>
+        ‣ video/H264 <br>
+        ‣ video/JPEG <br>
+        ‣ audio/aac <br>
+        ‣ audio/mpeg <br>
+        ‣ font/ttf <br>
+        ‣ image/jpeg <br>
+        ‣ image/png <br>
+
+        - Para criação de imagens que mudam de tamanho para cada tamanho de tela, primeiramente voce deve abrir a tag picture. criar o laço img e escolher a maior imagem (forma pessoal de realizar). após isso, você cria um source, que inicia do menor para o maior, colocando o tamanho da imagem + 50px de diferença. - exercicio 011
+                
+        
+    </p>
+
+
+
+    
+
+</body>
+</html>
