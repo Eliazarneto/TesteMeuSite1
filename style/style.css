@@ -41,6 +41,11 @@ main .conteudo-principal p {
 main li a {
     list-style: disc;
     color: white;
+    text-decoration: none;
+}
+
+main li a:hover {
+    text-decoration: underline;
 }
 
 #menu-h{
