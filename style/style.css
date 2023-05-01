@@ -3,6 +3,8 @@
     padding: 10;
     box-sizing: border-box;
     border-radius: 20px;
+    list-style: none;
+    
 }
 
 body{
@@ -15,6 +17,41 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-around; /*faz as coisas se tornarem maleaveis*/
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 10px;
+}
+
+.cabeçalho {
+    background-color: #698EEA;
+    display: flex;
+    gap: 3rem;
+    font-weight: 300px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.cabeçalho a /*mudando os links*/ { 
+    color: white;
+    font-size: 17px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.cabeçalho a:hover {
+    color: black;
+    transition: 0.3s all;
+}
+
+.cabeçalho a:hover {
+
 }
 
 main .conteudo-principal {
@@ -48,33 +85,6 @@ main li a {
 main li a:hover {
     text-decoration: underline;
 }
-
-#menu-h{
-    list-style: none;
-    padding: 0;
-    background-color: #698EEA;
-    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.61);
-    text-align: justify;
-    max-width: 600px;
-
-}
-
-#menu-h li{
-    display: inline;    
-}
-
-#menu-h li a{
-    color: rgb(255, 253, 253);
-    padding: 30px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background .8s;
-}
-
-#menu-h li a:hover{
-    background-color:#2258E5
-}
-
 
 main{
    /* background-color: rgb(209, 200, 200);*/
