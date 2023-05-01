@@ -50,14 +50,9 @@ header {
     transition: 0.3s all;
 }
 
-.cabeçalho a:hover {
-
-}
-
 main .conteudo-principal {
     background-color: #698eea7e;
     padding: 10px;
-    
 }
 
 
@@ -66,6 +61,7 @@ main .conteudo-principal h1, h2 {
     text-align: center;
     padding: 20px;
     margin: auto;
+    text-decoration: underline;
 }
 
 main .conteudo-principal p {
@@ -74,6 +70,13 @@ main .conteudo-principal p {
     margin: 20px;
     padding: 6px;
     text-align: justify;
+}
+
+.conteudo-principal li {
+    color: white;
+    padding: 3px;
+    font-size: 14px;
+    list-style: disc;
 }
 
 main li a {
