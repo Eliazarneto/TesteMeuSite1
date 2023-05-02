@@ -37,8 +37,11 @@ header {
 }
 
 .cabeçalho {
-    background-color: #698EEA;
+    background-color: #698eea36;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
     gap: 3rem;
     font-weight: 300px;
     cursor: pointer;
@@ -62,12 +65,13 @@ header {
 }
 
 .cabeçalho a:hover {
-    color: black;
+    padding: 10px;
+    background-color: #698EEA;
     transition: 0.3s all;
 }
 
 main .conteudo-principal {
-    background-color: #698eea7e;
+    background-color: #698eea56;
     padding: 10px;
 }
 
@@ -129,7 +133,7 @@ li{
 
 
 footer {
-    background-color: #698EEA;
+    background-color: #698eea48;
     text-align: center;
     padding: 4px;
     margin: 10px;
