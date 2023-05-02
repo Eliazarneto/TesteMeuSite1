@@ -9,7 +9,7 @@
 
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.703), rgba(0, 0, 0, 0.727)),url(https://wp.eucapacito.com.br/wp-content/uploads/2021/04/AdobeStock_241083104-scaled.jpeg);
-    max-width: 600px;
+    max-width: 96vh;
     margin: auto;
     padding: 10px;
     border-radius: 20px;
@@ -22,11 +22,18 @@ body{
 header {
     display: flex;
     justify-content: space-around; /*faz as coisas se tornarem maleaveis*/
-    max-width: 100%;
+    max-width: 96vh;
     align-items: center;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 10px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .cabeçalho {
@@ -36,6 +43,14 @@ header {
     font-weight: 300px;
     cursor: pointer;
     padding: 7px;
+    width: 96vh;
+}
+
+.cabeçalho li {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-right: 20px;
 }
 
 .cabeçalho a /*mudando os links*/ { 
@@ -43,6 +58,7 @@ header {
     font-size: 17px;
     margin-left: 30px;
     text-decoration: none;
+    
 }
 
 .cabeçalho a:hover {
@@ -95,7 +111,7 @@ main{
     text-align: justify;
     text-indent: 30px;
     line-height: 1.5em;
-    max-width: 600px;
+    max-width: 96vh;
     margin-top: 20px;
 }
 
