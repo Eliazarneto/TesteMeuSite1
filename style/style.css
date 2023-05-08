@@ -100,6 +100,7 @@ main .conteudo-principal p {
 
 main li a {
     list-style: disc;
+    font-size: 17px;
     color: white;
     text-decoration: none;
 }
