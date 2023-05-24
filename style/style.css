@@ -148,7 +148,7 @@ footer > p {
 
 
 
-/*
+
 @media screen and (max-width: 768px) {
     body {
         width: 100%;
@@ -171,5 +171,19 @@ footer > p {
         height: 10px;
         width: 5px;
     }
+
+    .conteudo-principal h1, h2 {
+        font-size: 20px;
+    }
+    .conteudo-principal li a{
+        color: white;
+        font-size: 10px;
+        padding: 3px;
+        font-size: 14px;
+        list-style: disc;
+    }
+
+    .footer {
+        width: 100%;
+    }
 }
-*/
