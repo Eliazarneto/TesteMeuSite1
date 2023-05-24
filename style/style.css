@@ -67,13 +67,14 @@ header {
 
 .cabeçalho a:hover {
     padding: 10px;
-    background-color: #698EEA;
+    background-color: #082263;
     transition: 0.3s all;
 }
 
 main .conteudo-principal {
-    background-color: #698eea56;
+    background-color: #132f75cc;
     padding: 10px;
+    
 }
 
 main .conteudo-principal h1, h2 {
@@ -81,7 +82,7 @@ main .conteudo-principal h1, h2 {
     text-align: center;
     padding: 20px;
     margin: auto;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 main .conteudo-principal p {
@@ -134,7 +135,7 @@ li{
 
 
 footer {
-    background-color: #698eea48;
+    background-color: #132f75cc;
     text-align: center;
     padding: 4px;
     margin: 10px;
