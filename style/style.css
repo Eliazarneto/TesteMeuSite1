@@ -157,6 +157,7 @@ footer > p {
     .cabeçalho {
         font-size: 10px;
         width: 100%;
+        padding-right: 40px;
     }
 
     .cabeçalho a{
@@ -166,10 +167,16 @@ footer > p {
         align-items: center;
     }
 
-    .logo {
-        font-size: 5px;
-        height: 10px;
-        width: 5px;
+    .cabeçalho a:hover {
+        padding: 7px;
+        background-color: #082263;
+        transition: 0.3s all;
+    }
+
+    .logo img {
+        margin-left: 40px;
+        height: 30px;
+        width: 30px;
     }
 
     .conteudo-principal h1, h2 {
